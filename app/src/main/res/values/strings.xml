@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HwApplication3</string>
+    <string name="main_activity_name">HwApplication3</string>
+    <string name="add_activity_name">Add HwApplication3</string>
+    <string name="add_button_text">ADD</string>
+    <string name="default_name">[Name]</string>
+    <string name="default_phone">[Phone]</string>
+    <string name="default_people">\?</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+</resources>
