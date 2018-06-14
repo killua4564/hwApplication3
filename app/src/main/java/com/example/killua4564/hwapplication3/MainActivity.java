@@ -1,18 +1,14 @@
 package com.example.killua4564.hwapplication3;
 
 import android.content.ContentResolver;
-import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
-import android.util.Log;
 import android.view.View;
 
 import com.example.killua4564.hwapplication3.Contract;
@@ -21,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private Adapter adapter;
     private ContentResolver contentResolver;
     private RecyclerView recyclerView;
-
-    private final static String LOG_TAG = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
