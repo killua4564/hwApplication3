@@ -15,6 +15,6 @@ public class Contract {
         public static final String COLUMN_NAME = "name";
         public static final String COLUMN_PHONE = "phone";
         public static final String COLUMN_PEOPLE = "people";
-        public static final String COLUMN_TIMESTAMP = "timstamp";
+        public static final String COLUMN_TIMESTAMP = "timestamp";
     }
 }
